@@ -1,0 +1,151 @@
+
+*{
+    margin:0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+
+
+#navbar{
+    background-color:black;
+    font-family: 'Yeon Sung' ;
+    padding: 13px, 14px;
+    height: 50px;
+}
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+     justify-content: center;
+    align-items: center;
+}
+#navbar li{
+    list-style: none;
+    padding-top: 10px;
+}
+#navbar li a{ 
+   text-decoration: none;
+    padding: 13px 20px;
+    color: white;
+    
+}
+#navbar li a:hover{
+    color: white; 
+    font-weight: bolder; 
+}#introSection{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'ZCOOL QingKe HuangYou';
+    font-size: 65px;
+    align-items: center;
+    background: center/cover no-repeat url("/static/dance.jpg") ;
+    height: 425px;
+    background-color: red;
+}
+#missionSection {
+    height: 300px;
+    display: flex;
+    
+    
+  justify-content: center; /* Horizontally center the content */
+  align-items: center; /* Vertically center the content (optional) */
+}
+
+.card{
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 30%;
+    margin: 20px 22px;
+    height: 209px;
+    
+}
+#introSection div.small{
+    font-size: 52px;
+    padding: 5px;
+}
+#sponsorsSection{
+    height: 300px;
+    background-color: #fbd6d6c7;
+}
+#footer{
+    background-color: black;
+    height: 60px;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+}
+#sponsorsSection h2{
+    text-align: center;
+    padding-top: 12px;
+}
+#logo{
+    display: flex;
+    color: white;
+    align-items: center;
+    margin: 7px 2px;
+    font-size: 10px;
+    margin-right: 140px;
+    
+}
+#logo img{
+    height: 42px;
+    filter: invert(1);
+}
+.card-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.card-img{
+    height: 131px;
+    padding: 0 14px;
+    margin: 5px 9px;
+}
+.card-img img{
+    height: inherit; 
+}
+h3{
+    text-align: center;
+}
+#sponsors{
+    height: 191px;
+    max-width: 1000px;
+    margin: auto
+}
+
+.spImage{
+    height: 80%;
+    margin: 20px;
+}
+
+/* Adjust the sponsor section when screen width is less than 1312px */
+/* Adjust the sponsor section when screen width is less than 1312px */
+/* Adjust the sponsor section when screen width is less than 1312px */
+/* Adjust the sponsor section when screen width is less than 1312px */
+@media (max-width: 1312px) {
+    #missionSection {
+      padding-bottom: 40px; /* Add padding to separate from the sponsor section */
+    }
+  
+    .card {
+      width: 45%;
+      margin: 20px 10px;
+    }
+  
+    #sponsorsSection {
+      margin-top: 20px; /* Adjust margin to create separation from the mission section */
+      margin-bottom: 20px; /* Add margin at the bottom to separate from the next section */
+    }
+  
+    #sponsors {
+      max-width: 800px;
+    }
+  
+    .spImage {
+      height: 60px;
+    }
+  }
+  
+  
